@@ -62,7 +62,7 @@ let employees = [];
                         <p class='phone'>${phone}</p>
                         <p class="address">${street.name}, ${state} ${postcode}</p>
                         <p class='birthday'>Birthday:
-                        ${date.getMonth()}/${date.getDate()}/${date.getFullYear()}</p>
+                        ${dob.date.substr(5,2)}/${dob.date.substr(8,2)}/${date.getFullYear()}</p>
                     </div>
                     </div>
                 `;
