@@ -1,0 +1,1 @@
+The background color for the 12 employee's in the directory has been changed to lightblue
